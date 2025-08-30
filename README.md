@@ -19,17 +19,9 @@ The system consists of:
 
 ## 📂 Repository Structure
 
-```│
-├── data/
-│   └── SEntFiN_1.0.csv               
-│
-├── notebook/
-│   └── Sentiment_Analysis.ipynb        
-│
-├── report/
-│   └── Report_Sentiment_Analysis.pdf  
-│
-
+| SEntFiN.csv                        # Dataset          
+│ Sentiment_Analysis.ipynb           # Implementation
+│ Report_Sentiment_Analysis.pdf      # Report
 
 ## 📜 Dataset
 
@@ -46,7 +38,6 @@ The Dataset is a high-quality dataset of over **10,000 news headlines** annotate
 * Fully reproducible on **Google Colab**.
 * Confusion matrix visualization for error analysis.
 
-
 ## 🔧 Tech Stack
 
 * Python, PyTorch, Hugging Face Transformers
@@ -61,33 +52,15 @@ The Dataset is a high-quality dataset of over **10,000 news headlines** annotate
 | Accuracy | 82.97% |
 | Macro F1 | 82.78% |
 
-
 Example prediction:
 
-```
 Headline: "Government unveils major tax relief package for startups"
 Entity: "Government"
 Predicted Sentiment: Neutral (96.4% confidence)
-```
-
 
 ## 📘 Report
 
 Read the full report: Report_Sentiment_Analysis.pdf
-
-## 📚 References
-
-1. Araci, D. (2019). FinBERT: Financial Sentiment Analysis with Pre-trained Language Models.
-2. Devlin, J. et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers.
-3. Qin, Y. et al. (2023). SEntFiN: A Dataset for Entity-level Sentiment Classification.
-4. Liu, Y. et al. (2019). RoBERTa: A Robustly Optimized BERT Pretraining Approach.
-5. Vaswani, A. et al. (2017). Attention is All You Need.
-6. Sun, C. et al. (2019). How to Fine-Tune BERT for Text Classification.
-7. Zhang, Y. et al. (2021). Sentiment Analysis in Finance: A Survey.
-8. Chen, T. & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System.
-9. Yang, Z. et al. (2019). XLNet: Generalized Autoregressive Pretraining.
-10. Brown, T. et al. (2020). Language Models are Few-Shot Learners.
-
 
 ## 📜 License
 This project is for **educational and internship purposes**. Dataset is credited to [SEntFiN](https://huggingface.co/datasets/zeroshot/SEntFiN).
