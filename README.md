@@ -61,14 +61,6 @@ The Dataset is a high-quality dataset of over **10,000 news headlines** annotate
 | Accuracy | 82.97% |
 | Macro F1 | 82.78% |
 
-**Confusion Matrix:**
-
-```
-                Pred Negative    Pred Neutral    Pred Positive
-True Negative         367             61              41
-True Neutral          29             417             66
-True Positive         19             57             546
-```
 
 Example prediction:
 
@@ -81,7 +73,7 @@ Predicted Sentiment: Neutral (96.4% confidence)
 
 ## 📘 Report
 
-Read the full report: 
+Read the full report: Report_Sentiment_Analysis.pdf
 
 ## 📚 References
 
